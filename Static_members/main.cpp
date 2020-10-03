@@ -28,7 +28,7 @@ public:
     {
         balance = b;
     }
-// to access roi , we create function setroi: to send value in roi
+// to access roi if declared inside private, we create function setroi: to send value in roi
    static void setroi(float r)     // can be made static member function by using static kkeyword
                                    // only access   static members and can be called w/o object
     {
@@ -58,25 +58,6 @@ Static/class Member function
 - Invoked with or w/o objects.
 - only access static members of class.
 */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
