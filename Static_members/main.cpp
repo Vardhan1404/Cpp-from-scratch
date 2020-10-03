@@ -1,6 +1,6 @@
 /*
 Static members have 3 classifications :
-- Static Local variables
+- Static Local variables  // explanation at bottom
 - Static Member Variables
 - Static Member Functions
 
