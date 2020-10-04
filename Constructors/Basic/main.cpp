@@ -31,4 +31,9 @@ int main()
     return 0;
 }
 
-
+/*
+It is invoked implicitly when an object is creates
+It solves the problem of initialization.
+Problem of initialization: when an object is created, the values stored in it are garbage values.
+therefore constructor overcomes this problem by providing initial values instead of garbage.
+*/
