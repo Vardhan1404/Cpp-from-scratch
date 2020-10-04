@@ -29,6 +29,7 @@ void fun()
 int main()
 {
     fun();
+//   Destructor is called now here, after function fun is completed.
     return 0;
 }
 
