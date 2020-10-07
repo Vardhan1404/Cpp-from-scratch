@@ -24,6 +24,7 @@ public:
     {
         cout<<"a = "<<a<<" b = "<<b<<endl; }
 
+    
  friend complex operator+(complex, complex);       // friend func declared
 };
 
