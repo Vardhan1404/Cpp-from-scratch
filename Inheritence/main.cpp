@@ -20,7 +20,7 @@ TYPES of INHERITANCE -
 1. Single Level Inheritance ( One parent and One child class )
 class A       // Base class
 {  };
-class B:public A     // Derived class
+class B:public A     // Derived class // by default - private
 {  };
 
 2. Multilevel Inheritance ( More than 1 levels )
@@ -61,3 +61,4 @@ User 2 : Will derived class from the class
 Private members are available to both, but accessible by none.
 Protected members are available to both, but accessed by user 2 but not user 1.
 Public members are available and accessible by both users
+
