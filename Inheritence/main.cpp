@@ -62,3 +62,39 @@ Private members are available to both, but accessible by none.
 Protected members are available to both, but accessed by user 2 but not user 1.
 Public members are available and accessible by both users
 
+Visibility Modes:
+1. Private: All protected/public members of class A will become Private members in B.
+2. Protected: All protected/public members of class A will become Protected members in B.
+3. Public: All protected & public members of class A will become Protected and Public members of class B respectively.
+
+*/
+
+#include<iostream>
+#include<conio.h>
+using namespace std;
+
+class A           // base class
+{
+    private:
+        int a;
+    protected:
+        void setvalue(int k)
+        {
+            a=k;
+        }
+};
+class B:public A        // derived class
+{
+public:
+    void setdata(int x)
+    {
+        setvalue(x);        // protected in derived class B also
+    }
+};
+int  main()
+{
+    B obj;
+  //  obj.setvalue(5)    // produces error since setvalue is protected member in class B also, and protected member can not be accessed by user 1 i.e which creates object.
+    obj.setdata(6);      // puts value into x , and then to setvalue , setvalue to k , k to a.
+    return 0;
+}
