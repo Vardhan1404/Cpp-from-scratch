@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602527116 source:d:\cpp\cpp-from-scratch\method overriding\main.cpp
+	<iostream>
+	<conio.h>
+

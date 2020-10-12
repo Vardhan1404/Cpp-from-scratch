@@ -14,14 +14,14 @@ using namespace std;
 class A
 {
     public:
-        void f1() {  }
-        void f2() {  }
+        void f1() { cout<<" f1 function of class A "<<endl; }
+        void f2() { cout<<" f2 function of class A "<<endl; }
 };
 class B:public A
 {
 public:
-    void f1() {  }        // Method Overriding
-    void f2(int x) {  }   // Method Hiding
+    void f1() { cout<<" f1 function of class B "<<endl; }        // Method Overriding
+    void f2(int x) { cout<<" f2 function of class B "<<endl; }   // Method Hiding
 };
 int main()
 {
