@@ -1,5 +1,4 @@
 /*
-
 Base class pointer : It can point to the object of any of its descendant class
 
 - Parent class pointer can access child class object.
@@ -41,7 +40,7 @@ int main()
 
 /* VIRTUAL FUNCTION WORKING CONCEPT
 
-     RULES
+                 RULES
 - Any class where atleast one virtual function exists, in that class the compiler declares the variable as the member in that class.
 - It says that if any class contains atleast one virtual function then object created of that class must contains/exists vptr pointer.
 - No separate vptr pointer for child class if one is already in parent class.
