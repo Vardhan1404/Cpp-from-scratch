@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1602871710 source:d:\cpp\cpp-from-scratch\abstract class @pure virtual func\main.cpp
+	<iostream>
+	<conio.h>
+
