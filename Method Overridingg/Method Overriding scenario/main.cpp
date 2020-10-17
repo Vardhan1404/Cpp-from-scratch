@@ -27,5 +27,4 @@ int main()
 //obj.gear_change();   // sportscar
 //obj.f2();  // gives error since arguments not match
    obj.f2(5); // B class f2 will run.
-
 }
