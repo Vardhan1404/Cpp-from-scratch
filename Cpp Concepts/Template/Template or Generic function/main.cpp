@@ -51,7 +51,7 @@ X big(X a, X b)
 int main()
 {
     cout<<big(4,5)<<endl;
-    cout<<big(5.7,3.7); // data loss , since it is double type
+    cout<<big(3.75,3.7); // data loss , since it is double type
     return 0;
 }
 
