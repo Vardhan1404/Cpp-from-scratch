@@ -39,7 +39,7 @@ double big(double a, double b)
 */
 
 // To make function template/generic function//
-template <class X>              // X is placeholder; any name irrespective of X can be given to it.
+template <class X>              // X is placeholder ; any name irrespective of X can be given to it.
 X big(X a, X b)
 {
     if (a>b)
@@ -51,7 +51,7 @@ X big(X a, X b)
 int main()
 {
     cout<<big(4,5)<<endl;
-    cout<<big(3.75,3.7); // data loss , since it is double type
+    cout<<big(3.9,3.7); // data loss , since it is double type
     return 0;
 }
 
