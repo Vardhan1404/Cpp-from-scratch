@@ -9,11 +9,13 @@ SYNTAX:
 template<class type>
 type func_name(type arg1, type arg2)
 
-2. Class template
-
 - If we have to do function overloading just for sake of different data-type, then we can create a generalize single version of
  function to avoid function overloading n that generalize version can run with any data type provided.
 
+2. Class template
+- Class template is also known as generic class.
+SYNTAX:
+template <class "type"/placeholder> class class_name{....};
 
 */
 
