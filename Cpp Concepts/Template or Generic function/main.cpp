@@ -9,11 +9,13 @@ SYNTAX:
 template<class type>
 type func_name(type arg1, type arg2)
 
-2. Class template
-
 - If we have to do function overloading just for sake of different data-type, then we can create a generalize single version of
  function to avoid function overloading n that generalize version can run with any data type provided.
 
+2. Class template
+- Class template is also known as generic class.
+SYNTAX:
+template <class "type"/placeholder> class class_name{....};
 
 */
 
@@ -39,7 +41,7 @@ double big(double a, double b)
 */
 
 // To make function template/generic function//
-template <class X>              // X is placeholder; any name irrespective of X can be given to it.
+template <class X>              // X is placeholder ; any name irrespective of X can be given to it.
 X big(X a, X b)
 {
     if (a>b)
@@ -51,7 +53,7 @@ X big(X a, X b)
 int main()
 {
     cout<<big(4,5)<<endl;
-    cout<<big(5.7,3.7); // data loss , since it is double type
+    cout<<big(3.9,3.7); // data loss , since it is double type
     return 0;
 }
 
