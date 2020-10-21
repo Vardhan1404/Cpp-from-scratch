@@ -7,7 +7,6 @@
   we do function overloading in child class.
 - By making do nothing function virtual, we initiated "late binding" of the function,
 
-
 -- ABSTRACT CLASS IN C++
 
 - The class in which there exists atleast one pure virtual function. and have no object.
