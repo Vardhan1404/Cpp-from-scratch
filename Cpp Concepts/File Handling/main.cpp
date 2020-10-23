@@ -11,7 +11,7 @@
 
 To represent streams, we have objects and then , we have class also, i.e Predefined classes
 istream                                   ostream
-ifstream (child class)                    ofstream (child class)            fstream (combo of both ifstream and ofstream)
+ifstream (child class)                    ofstream (child class)            fstream (combination of both ifstream and ofstream)
 
 To write into file - ofstream obj
 To read from a file - ifstream obj
@@ -29,7 +29,7 @@ using namespace std;
 int main()
 {
     ofstream fout;
-    fout.open("myfile.dat");  // open is a member function of ofstream
+    fout.open("myfile.dat");              // open is a member function of ofstream
     fout<<"Hello";
     fout.close();
     return 0;
