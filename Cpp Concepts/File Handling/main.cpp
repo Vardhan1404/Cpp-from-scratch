@@ -20,7 +20,6 @@ cin : object of istream_withassign class and also access members of parent class
 cout : object of ostream_withassign class and can also access members of parent class "ostream"
 
 */
-
 #include<fstream>
 #include<iostream>
 using namespace std;
