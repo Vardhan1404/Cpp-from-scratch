@@ -16,9 +16,7 @@
 
 - For generalization.
 - To provide common features of abstract class into child classes.
-
 */
-
 #include<iostream>
 #include<conio.h>
 using namespace std;
