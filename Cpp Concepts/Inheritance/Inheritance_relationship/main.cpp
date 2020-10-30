@@ -6,10 +6,9 @@
 - Only implemented with public inheritance;
 */
 
-
-
 #include<conio.h>
 #include<iostream>
+
 // when private or protected inheritance in play
 class array
 {
