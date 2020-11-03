@@ -40,8 +40,8 @@ int main()
     integer i1,i2;
     i1.setdata(8);
     i1.showdata();
-    //i2=--i1;        // Pre decrement
-    i2=i1--;          // Post decrement
+    //i2=--i1;        // Pre decrement declaration
+    i2=i1--;          // Post decrement declaration
     i1.showdata();
     i2.showdata();
     return 0;
