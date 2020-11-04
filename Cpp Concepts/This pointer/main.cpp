@@ -21,6 +21,7 @@ private:
 public:
     void set_dimen(int l, int b, int h)           // l,b,h : local variable
  // void set_dimen(int x, int y, int z)          // Instance member function
+
 // l=l; b=b; h=h;  -this gives error, to avoid thus, we use "this" pointer
 
     { this->l=l; this->b=b; this->h=h;}       // name conflict resolves  // assignment left side are to be instance member variable
