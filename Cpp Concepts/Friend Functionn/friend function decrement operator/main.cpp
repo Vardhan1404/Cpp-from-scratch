@@ -39,7 +39,7 @@ complex operator -(complex X)
 }
 int main()
 {
-    complex c1,c2;
+    complex c1,c2;   // objects formation
     c1.setdata(5,8);
     c2 = -c1;     // c2=operator-(c1)
     c1.showdata();
