@@ -16,6 +16,7 @@
 
 - For generalization.
 - To provide common features of abstract class into child classes.
+
 */
 #include<iostream>
 #include<conio.h>
@@ -41,6 +42,7 @@ class student:public Person
        cout<<"\nFun function of child class :";
       }
 };
+
 int main()
 {
     // No object for abstract class Person can be created.
