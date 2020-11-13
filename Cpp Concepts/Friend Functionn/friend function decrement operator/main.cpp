@@ -4,10 +4,7 @@
 // in Unary operator, we passed no argument in overloading as member function
 // but in friend func, caller object has to become argument, thus one argument to be passed.
 
-
 // Overloading of unary operator as a friend function
-
-
 #include<iostream>
 #include<conio.h>
 using namespace std;
