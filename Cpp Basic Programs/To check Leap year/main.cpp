@@ -1,5 +1,12 @@
-#include <iostream>
+/*
+LEAP year possibilities are as:
 
+year % 4==0
+century year % 400==0
+
+*/
+
+#include <iostream>
 using namespace std;
 
 int main()
